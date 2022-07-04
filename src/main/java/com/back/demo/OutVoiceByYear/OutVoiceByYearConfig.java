@@ -7,7 +7,7 @@ import java.util.List;
 @Configuration
 public class OutVoiceByYearConfig {
     @Bean
-    CommandLineRunner commandLineRunner4 (OutVoiceByYearRepository Repo) {
+    CommandLineRunner commandLineRunner5 (OutVoiceByYearRepository Repo) {
         return args -> {
             OutVoiceByYear Shawty = new OutVoiceByYear(1L,43
             );
