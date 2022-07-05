@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(path ="api/v1/LocSMSbyDay")
+@RequestMapping(path ="api/v1/LocDatabyDay")
 public class LocDataByDayController {
     private final LocDataByDayService LocDataByDayService ;
 
