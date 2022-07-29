@@ -1,4 +1,5 @@
 package com.back.demo.usage_vin_hourly;
+
 import javax.persistence.*;
 
 @Entity
@@ -6,7 +7,7 @@ import javax.persistence.*;
 public class usage_vin_hourly {
     @Id
     private Long time;
-    private int value ;
+    private int value;
 
     public usage_vin_hourly() {
     }
@@ -15,6 +16,7 @@ public class usage_vin_hourly {
         time = time;
         this.value = value;
     }
+
     public usage_vin_hourly(int value) {
         value = value;
     }

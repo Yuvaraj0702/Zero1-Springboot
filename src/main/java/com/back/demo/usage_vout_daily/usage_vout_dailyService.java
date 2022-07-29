@@ -9,17 +9,13 @@ import java.util.List;
 @Service
 public class usage_vout_dailyService {
     private final usage_vout_dailyRepository usagevoutdailyRepository;
+
     @Autowired
     public usage_vout_dailyService(usage_vout_dailyRepository usagevoutdailyRepository) {
         this.usagevoutdailyRepository = usagevoutdailyRepository;
     }
 
-    public List<usage_vout_daily> getusage_vout_daily(){
+    public List<usage_vout_daily> getusage_vout_daily() {
         return usagevoutdailyRepository.findAll();
     }
-
-//    public void addNewusage_vout_daily(usage_vin_daily usagevoutdaily) {
-//        // Optional<IDD> IDDCountry= iddRepository.findIDDByCountry(idd.getDestination_country());
-//        usagevoutdailyRepository.save(usagevoutdaily);
-//    }
 }

@@ -9,7 +9,7 @@ import javax.persistence.Table;
 public class usage_vin_daily {
     @Id
     private Long time;
-    private int value ;
+    private int value;
 
     public usage_vin_daily() {
     }
@@ -18,6 +18,7 @@ public class usage_vin_daily {
         time = time;
         this.value = value;
     }
+
     public usage_vin_daily(int value) {
         value = value;
     }

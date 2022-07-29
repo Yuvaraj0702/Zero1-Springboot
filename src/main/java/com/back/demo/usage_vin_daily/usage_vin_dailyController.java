@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(path ="api/v1/usage_vin_daily")
+@RequestMapping(path = "api/v1/usage_vin_daily")
 
 public class usage_vin_dailyController {
     private final usage_vin_dailyService usagevindailyService;
@@ -19,12 +19,7 @@ public class usage_vin_dailyController {
     }
 
     @GetMapping
-    public List<usage_vin_daily> getusage_vin_daily(){
+    public List<usage_vin_daily> getusage_vin_daily() {
         return usagevindailyService.getusage_vin_daily();
     }
-
-//    @PostMapping
-//    public void registerNewusage_vin_daily(@RequestBody usage_vin_daily usagevindaily) {
-//        usagevindailyService.addNewusage_vin_daily(usagevindaily);
-//    }
 }

@@ -9,7 +9,7 @@ import javax.persistence.Table;
 public class usage_sout_hourly {
     @Id
     private Long time;
-    private int value ;
+    private int value;
 
     public usage_sout_hourly() {
     }
@@ -18,6 +18,7 @@ public class usage_sout_hourly {
         time = time;
         this.value = value;
     }
+
     public usage_sout_hourly(int value) {
         value = value;
     }

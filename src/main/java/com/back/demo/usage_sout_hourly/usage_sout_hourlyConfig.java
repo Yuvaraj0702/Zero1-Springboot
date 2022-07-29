@@ -1,4 +1,5 @@
 package com.back.demo.usage_sout_hourly;
+
 import org.springframework.context.annotation.Configuration;
 
 

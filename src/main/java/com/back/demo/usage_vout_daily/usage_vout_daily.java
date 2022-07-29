@@ -1,4 +1,5 @@
 package com.back.demo.usage_vout_daily;
+
 import javax.persistence.*;
 
 @Entity
@@ -15,7 +16,7 @@ public class usage_vout_daily {
 //            generator = "usage_vout_daily_sequence"
 //    )
     private Long time;
-    private int value ;
+    private int value;
 
     public usage_vout_daily() {
     }
@@ -24,6 +25,7 @@ public class usage_vout_daily {
         time = time;
         this.value = value;
     }
+
     public usage_vout_daily(int value) {
         value = value;
     }

@@ -9,13 +9,14 @@ import java.util.List;
 @Service
 public class usage_data_dailyService {
     private final usage_data_dailyRepository usagedatahourlyRepository;
+
     @Autowired
     public usage_data_dailyService(usage_data_dailyRepository usagedatahourlyRepository) {
         this.usagedatahourlyRepository = usagedatahourlyRepository;
 
     }
 
-    public List<usage_data_daily> getusage_vin_hourly(){
+    public List<usage_data_daily> getusage_vin_hourly() {
         return usagedatahourlyRepository.findAll();
     }
 

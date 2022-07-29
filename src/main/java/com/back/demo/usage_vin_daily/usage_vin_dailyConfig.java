@@ -1,4 +1,5 @@
 package com.back.demo.usage_vin_daily;
+
 import org.springframework.context.annotation.Configuration;
 
 
